@@ -1,0 +1,9 @@
+.root{
+  display: flex;
+  .sidebar{
+    width: 300px;
+  }
+  .page{
+    flex: 1;
+  }
+}

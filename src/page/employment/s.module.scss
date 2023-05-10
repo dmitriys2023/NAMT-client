@@ -1,0 +1,62 @@
+.title{
+  font-size: 35px;
+  font-weight: initial;
+}
+.root{
+  display: flex;
+  margin: 50px 30px 0 0;
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    margin-right: 30px;
+    .subtitle{
+      font-family: Roboto;
+      color: #1975d1;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .m{
+      margin-top: 12px;
+    }
+    .question{
+      font-family: Roboto;
+      color: #1975d1;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .question2{
+      font-family: Roboto;
+      color: #1975d1;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: -2px;
+    }
+    .novis{
+      visibility: hidden;
+    }
+
+  }
+  .table{
+    margin-bottom: 30px;
+    p{
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+      padding: 5px;
+      width: 100px;
+    }
+    .work{
+      background-color: #468037;
+    }
+    .dontWork{
+      background-color: #f63a3a;
+    }
+    .study{
+      background-color: #f5b000;
+    }
+  }
+
+}

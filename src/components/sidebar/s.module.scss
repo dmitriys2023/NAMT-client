@@ -1,0 +1,50 @@
+.logo{
+  padding:10px 100px 10px 15px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: initial;
+  color: black;
+}
+.side{
+  border-right: 1px solid #b7b6b6;
+  padding:30px 10px 0px 10px;
+  margin: 0 50px 0 0;
+}
+.root{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: #ffffff;
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main{
+    min-height: 250vh;
+  }
+  .footer{
+    font-size: 30px;
+    font-weight: initial;
+    color: black;
+    padding:10px 100px 10px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+  }
+  a{
+    margin-bottom: 4px;
+    color: black;
+    font-size: 20px;
+    font-weight: initial;
+    padding:10px 160px 10px 15px;
+    border-radius: 8px;
+    transition: .3s;
+  }
+  a:hover{
+    background-color: rgba(89, 89, 89, 0.07);
+    color: black;
+    transition: .3s;
+  }
+
+}
